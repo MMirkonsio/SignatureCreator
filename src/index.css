@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Onest Variable', sans-serif;
+}
+
+.logo-size {
+    width: 300px;  /* Ancho de la imagen */
+    height: 80px; /* Altura de la imagen */
+    object-fit: contain; /* Ajusta la imagen sin distorsionarla */
+    border-radius: 8px;  /* Bordes redondeados si lo deseas */
+  }
+  
