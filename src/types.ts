@@ -4,6 +4,7 @@ export interface Employee {
   phone: string;
   fixedPhone: string;  // Nuevo campo
   email: string;
+  phonePersonal: string;
 }
 
 
